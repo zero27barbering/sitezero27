@@ -1,5 +1,6 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
-import style from '../style.json'
+import style from '../style.json';
+import Head from 'next/head';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -30,6 +31,9 @@ const theme = style.theme;
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Barber Shop - Rodrigo Carvalho</title>
+      </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <Component {...pageProps} />

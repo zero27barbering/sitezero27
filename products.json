@@ -1,12 +1,62 @@
 {
-  "Produto1": {
+  "hair": {
     "name": "Hair",
+    "price": "15£",
+    "time": "40min"
+  },
+  "beard": {
+    "name": "Beard",
+    "price": "10£",
+    "time": "20min"
+  },
+  "beardTherapy": {
+    "name": "Beard Therapy",
     "price": "15£",
     "time": "30min"
   },
-  "Produto2": {
-    "name": "Beard",
-    "price": "10£",
-    "time": "15min"
+  "eyebrows": {
+    "name": "Eyebrows",
+    "price": "7£",
+    "time": "10min"
+  },
+  "hairPigmentation": {
+    "name": "Hair Pigmentation",
+    "price": "15£",
+    "time": "30min"
+  },
+  "beardPigmentation": {
+    "name": "Beard Pigmentation",
+    "price": "15£",
+    "time": "30min"
+  },
+  "progressiveTreatment": {
+    "name": "Progressive Treatment",
+    "price": "Starting from 30£",
+    "time": "40min"
+  },
+  "comboHairBeard": {
+    "name": "COMBO Hair & Beard",
+    "price": "20£",
+    "time": "60min"
+  },
+  "comboHairBeardTherapy": {
+    "name": "COMBO Hair & Beard Therapy",
+    "price": "25£",
+    "time": "70min"
+  },
+  "comboHairEyebrows": {
+    "name": "COMBO Hair & Eyebrows",
+    "price": "20£",
+    "time": "50min"
+  },
+  "comboHairBeardEyeBrows": {
+    "name": "COMBO Hair & Beard & Eyebrows",
+    "price": "25£",
+    "time": "65min"
+  },
+  "comboHairBeardTherapyEyeBrows": {
+    "name": "COMBO Hair & Beard Therapy & Eyebrows",
+    "price": "30£",
+    "time": "75min"
   }
 }

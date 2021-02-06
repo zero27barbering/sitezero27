@@ -1,0 +1,12 @@
+{
+  "Produto1": {
+    "name": "Hair",
+    "price": "15£",
+    "time": "30min"
+  },
+  "Produto2": {
+    "name": "Beard",
+    "price": "10£",
+    "time": "15min"
+  }
+}

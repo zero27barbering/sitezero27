@@ -1,0 +1,18 @@
+{
+  "bg": "img/background.jpeg",
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "color1": "#CE9C6B",
+      "color2": "#000000",
+      "color3": "#1C1C1C",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50",
+      "other": "#008F7A"
+    },
+    "borderRadius": "4px"
+  }
+}

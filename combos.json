@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "COMBO Hair & Beard",
+    "price": "20£",
+    "time": "1hr 15mins",
+    "link": "https://calendly.com/zero27barbering/hair-beard"
+  },
+  {
+    "id": 2,
+    "name": "COMBO Hair & Beard Therapy",
+    "price": "25£",
+    "time": "1hr 15mins",
+    "link": "https://calendly.com/zero27barbering/hair-beard-therapy"
+  },
+  {
+    "id": 3,
+    "name": "COMBO Hair & Eyebrows",
+    "price": "20£",
+    "time": "50min",
+    "link": "https://calendly.com/zero27barbering/hair-eyebrows"
+  },
+  {
+    "id": 4,
+    "name": "COMBO Hair & Beard & Eyebrows",
+    "price": "25£",
+    "time": "65min",
+    "link": "https://calendly.com/zero27barbering/hair-beard-eyebrows"
+  },
+  {
+    "id": 5,
+    "name": "COMBO Hair & Beard Therapy & Eyebrows",
+    "price": "30£",
+    "time": "75min",
+    "link": "https://calendly.com/zero27barbering/hair-beard-therapy-eyebrows"
+  },
+  {
+    "id": 6,
+    "name": "VIP",
+    "price": "100£",
+    "time": "2 hours",
+    "link": "https://calendly.com/zero27barbering/vip"
+  }
+]

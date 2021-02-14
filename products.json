@@ -1,62 +1,51 @@
-{
-  "hair": {
+[
+  {
+    "id": 1,
     "name": "Hair",
     "price": "15£",
-    "time": "40min"
+    "time": "45mins",
+    "link": "https://calendly.com/zero27barbering/hair"
   },
-  "beard": {
+  {
+    "id": 2,
     "name": "Beard",
     "price": "10£",
-    "time": "20min"
+    "time": "30mins",
+    "link": "https://calendly.com/zero27barbering/beard"
   },
-  "beardTherapy": {
+  {
+    "id": 3,
     "name": "Beard Therapy",
     "price": "15£",
-    "time": "30min"
+    "time": "30mins",
+    "link": "https://calendly.com/zero27barbering/beard-therapy"
   },
-  "eyebrows": {
+  {
+    "id": 4,
     "name": "Eyebrows",
     "price": "7£",
-    "time": "10min"
+    "time": "15mins",
+    "link": "https://calendly.com/zero27barbering/eyebrows"
   },
-  "hairPigmentation": {
+  {
+    "id": 5,
     "name": "Hair Pigmentation",
     "price": "15£",
-    "time": "30min"
+    "time": "30mins",
+    "link": "https://calendly.com/zero27barbering/hair-pigmentation"
   },
-  "beardPigmentation": {
+  {
+    "id": 6,
     "name": "Beard Pigmentation",
     "price": "15£",
-    "time": "30min"
+    "time": "30mins",
+    "link": "https://calendly.com/zero27barbering/beard-pigmentation"
   },
-  "progressiveTreatment": {
+  {
+    "id": 7,
     "name": "Progressive Treatment",
     "price": "Starting from 30£",
-    "time": "40min"
-  },
-  "comboHairBeard": {
-    "name": "COMBO Hair & Beard",
-    "price": "20£",
-    "time": "60min"
-  },
-  "comboHairBeardTherapy": {
-    "name": "COMBO Hair & Beard Therapy",
-    "price": "25£",
-    "time": "70min"
-  },
-  "comboHairEyebrows": {
-    "name": "COMBO Hair & Eyebrows",
-    "price": "20£",
-    "time": "50min"
-  },
-  "comboHairBeardEyeBrows": {
-    "name": "COMBO Hair & Beard & Eyebrows",
-    "price": "25£",
-    "time": "65min"
-  },
-  "comboHairBeardTherapyEyeBrows": {
-    "name": "COMBO Hair & Beard Therapy & Eyebrows",
-    "price": "30£",
-    "time": "75min"
+    "time": "60mins",
+    "link": "https://calendly.com/zero27barbering/progressive-treatment"
   }
-}
+]

@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     /* New styles */
     display: flex;
     flex-direction: column;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     // Deixa branco no começo
     color: ${({ theme }) => theme.colors.contrastText};
   }
@@ -24,6 +24,29 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
+  h1 {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1;
+  }
 `
 
 const theme = style.theme;
@@ -33,6 +56,8 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Barber Shop - Rodrigo Carvalho</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />

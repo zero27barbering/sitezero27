@@ -1,14 +1,15 @@
+import React from "react";
 import Products from '../src/components/Products';
-import Combos from '../src/components/Combos';
 import Infobar from '../src/components/Infobar';
 import ServiceArea from '../src/components/ServiceArea';
 import Header from '../src/components/Header';
-import ComboArea from '../src/components/ComboArea';
 import Footer from "../src/components/Footer";
+import NavBar from "../src/components/NavBar";
 
 export default function Home() {
   return (
     <>
+      <NavBar />
       <Header />
       <Infobar />
       <ServiceArea className="container">

@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
+    background-color: #000;
     margin: 0;
     padding: 0;
     /* New styles */
@@ -20,9 +21,9 @@ const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
   }
   #__next {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+    /*flex: 1;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
   }
   h1 {
     font-size: 42px;
@@ -47,6 +48,31 @@ const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     line-height: 1;
   }
+  button p {
+    font-size: 16px;
+  }
+  header h1 {
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 82px;
+  }
+  header .appointment {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  header h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 82px;
+  }
+  header .appointment::before {
+    content: "";
+    background-color: ${({ theme }) => theme.colors.color1};
+    height: 2px;
+    width: 40px;
+    margin-right: 15px;
+  }
 `
 
 const theme = style.theme;
@@ -56,6 +82,10 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Barber Shop - Rodrigo Carvalho</title>
+          {/*<link rel="stylesheet" href="/css/bootstrap-grid.min.css"/>
+          <link rel="stylesheet" href="/css/bootstrap-utilities.min.css"/>*/}
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
       </Head>

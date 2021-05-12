@@ -4,18 +4,17 @@ import Infobar from '../src/components/Infobar';
 import ServiceArea from '../src/components/ServiceArea';
 import Header from '../src/components/Header';
 import ComboArea from '../src/components/ComboArea';
+import Footer from "../src/components/Footer";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Infobar />
-      <ServiceArea>
+      <ServiceArea className="container">
         <Products />
       </ServiceArea>
-      <ComboArea>
-        <Combos />
-      </ComboArea>
+      <Footer />
     </>
   );
 }

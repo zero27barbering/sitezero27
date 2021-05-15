@@ -9,10 +9,18 @@ const Container = styled.div`
   background-color: ${({theme}) => theme.colors.color3};
   
   & > div {
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   & section {
-    margin: 20px 0;
+    margin: 2rem 0;
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+    margin-bottom: 0;
   }
   small {
     color: #989898;
@@ -20,6 +28,7 @@ const Container = styled.div`
   }
   & button {
     padding: 10px 15px;
+    width: max-content;
   }
   & svg {
     height: 20px;
@@ -48,7 +57,7 @@ const location = locations.map((locations) => {
                 <h4>{ locations.city }</h4>
                 <section>
                     <small>{` ${locations.number} ${locations.address} | ${locations.postalCode} `}</small>
-                    <small>{` ${locations.district} `}</small>
+                    <small>{` ${locations.county} `}</small>
                     <small>{` ${locations.city}, ${locations.country} `}</small>
                 </section>
                 <Button onClick={ handleClick }>

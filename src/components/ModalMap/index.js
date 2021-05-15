@@ -12,7 +12,7 @@ export default function ModalMap() {
                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close" />
                     </div>
                     <div className="modal-body">
-                        <MapEmbed />
+                        {/*<MapEmbed />*/}
                     </div>
                 </div>
             </div>

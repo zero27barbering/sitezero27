@@ -158,12 +158,12 @@ const product = products.map((products) => {
 export default class Products extends Component {
     render() {
         return (
-            <>
+            <section id="services">
                 <Title>Services & Pricing</Title>
                 <div className="row">
                     { product }
                 </div>
-            </>
+            </section>
         )
     }
 }

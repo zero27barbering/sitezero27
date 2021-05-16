@@ -57,8 +57,6 @@ const location = locations.map((locations) => {
         let section = e.target.previousSibling
         let num = section.getAttribute('data-number')
         let addr = section.getAttribute('data-address')
-        console.log(num)
-        console.log(addr)
         document.querySelector('#exampleModal .modal-body').innerHTML = renderToStaticMarkup(<MapEmbed number={num} address={addr} />)
     }
 
@@ -83,12 +81,12 @@ const location = locations.map((locations) => {
 export default class Locations extends Component {
     render() {
         return (
-            <>
+            <section id="locations">
                 <Title style={{marginTop: 100 + 'px'}}>Locations</Title>
                 <Row className="row">
                     { location }
                 </Row>
-            </>
+            </section>
         )
     }
 }

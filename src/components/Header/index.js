@@ -50,6 +50,9 @@ export const Container = styled.div`
     object-fit: cover;
   }
   @media (max-width: 500px) {
+    & {
+      margin-right: -12px;
+    }
     .carousel-item img {
       height: 600px;
     }

@@ -87,10 +87,6 @@ const GlobalStyle = createGlobalStyle`
     height: 500px;
     width: 600px;
   }
-  /*iframe {
-    height: 300px;
-    width: 400px;
-  }*/
 `
 
 const theme = style.theme;

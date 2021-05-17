@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 const Widget = styled.div`
-  margin-top: 100px;
-  margin-bottom: 24px;
-  border: 1px solid ${({ theme }) => theme.colors.color1};
+  /*margin-top: 100px;*/
+  /*margin-bottom: 24px;*/
+  /*border: 1px solid ${({ theme }) => theme.colors.color1};*/
   border-radius: 4px;
   overflow: hidden;
   @media screen and (max-width: 500px) {
-    margin-top: 530px;
+    /*margin-top: 530px;*/
   }
 `;
 

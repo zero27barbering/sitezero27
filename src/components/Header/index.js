@@ -1,15 +1,24 @@
+import React from "react";
 import styled from 'styled-components';
 import style from '../../../style.json';
 import WidgetContainer from '../Widget/container';
 import Widget from '../Widget';
 import Button from '../button';
+import Carousel from "../Carousel";
 
 export const Background = styled.div`
   width: 100%;
   background-size: cover;
   background-position: center;
   background-image: url(${({ backgroundImage }) => backgroundImage});
-  flex: 1;
+  height: 900px;
+  display: flex;
+  /*flex: 1;*/
+
+  @media screen and (max-width: 1000px) {
+    
+  }
+  
   @media screen and (max-width: 500px) {
     background-image: none;
     &:after {
@@ -21,7 +30,7 @@ export const Background = styled.div`
         url(${({ backgroundImage }) => backgroundImage});
       display: block;
       width: 100%;
-      height: 900px;
+      height: 600px;
       position: absolute;
       top: 0;
       left: 0;
@@ -35,22 +44,25 @@ export const Background = styled.div`
   }
 `;
 
+export const Container = styled.div`
+  .carousel-item img {
+    height: 900px;
+    object-fit: cover;
+  }
+  @media (max-width: 500px) {
+    & {
+      margin-right: -12px;
+    }
+    .carousel-item img {
+      height: 600px;
+    }
+  }
+`
+
 export default function Header() {
   return (
-    <Background backgroundImage={style.bg}>
-      <WidgetContainer>
-        <Widget>
-          <Widget.Header>
-            <div>
-              <h3>Make your appointment</h3>
-              <h1>I Will Make You Stylish</h1>
-            </div>
-          </Widget.Header>
-          <Widget.Content>
-            <Button><p>Services and Princing</p></Button>
-          </Widget.Content>
-        </Widget>
-      </WidgetContainer>
-    </Background>
+    <Container>
+      <Carousel />
+    </Container>
   )
 }

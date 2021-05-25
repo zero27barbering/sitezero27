@@ -10,7 +10,7 @@ export const Container = styled.header`
   nav {
     width: 100%;
     z-index: 2;
-    background-color: #1d1d1b;
+    background-color: ${({ theme }) => theme.colors.color3};
   }
   nav img {
     height: 100px;

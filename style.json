@@ -5,9 +5,10 @@
   ],
   "theme": {
     "colors": {
-      "color1": "#CE9C6B",
+      "color1": "#B06D15",
       "color2": "#000000",
-      "color3": "#1C1C1C",
+      "color3": "#1D1D1D",
+      "backgroundColor": "#000",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50",

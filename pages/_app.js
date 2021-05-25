@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    background-color: #000;
+    background-color: ${({ theme }) => theme.colors.backgroundColor};;
     margin: 0;
     padding: 0;
     /* New styles */

@@ -8,7 +8,9 @@ import MapEmbed from "../MapEmbed";
 import {renderToStaticMarkup} from "react-dom/server";
 
 const Container = styled.div`
-  background-color: ${({theme}) => theme.colors.color3};
+  background-color: ${({theme}) => theme.colors.color2};
+  border-radius: 15px;
+  border: 2px solid ${({theme}) => theme.colors.color1};
   
   & > div {
     padding: 2rem 1.5rem;

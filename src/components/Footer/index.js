@@ -13,6 +13,11 @@ export const Container = styled.footer`
     text-decoration: none;
   }
   
+  nav img {
+    height: 100px;
+    width: auto;
+  }
+
   @media (max-width: 768px) {
     & {
       justify-content: center;
@@ -27,10 +32,10 @@ export default function Footer() {
     return (
         <Container className="container">
             <div>
-                <span>Copyright © 2021 – Rodrigo Carvalho</span>
+                <span>Copyright © 2021 – Zero27 Barbering</span>
             </div>
             <div>
-                <img src="/img/logo-carvalho.svg" alt="Logo"/>
+                <img src="/img/nav-logo.svg" alt="Logo"/>
             </div>
             <div>
                 <span>Follow me on <a href="insta">Instagram</a></span>

@@ -123,8 +123,7 @@ const product = products.map((products) => {
                 <div>
                     <h3>{products.name}</h3>
                     <span>
-                        Lorem ipsum dolor sit amet et dolore magna
-                        aliqua consectetur adipiscing elit phasellus.
+                      {products.description}
                     </span>
                     <small>{` ${products.price} | ${products.time} `}</small>
                 </div>

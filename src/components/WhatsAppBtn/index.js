@@ -18,7 +18,7 @@ export const Btn = styled.a`
   
   &:hover {
     color: white;
-    background-color: #b78a5f;
+    background-color: ${({theme}) => theme.colors.color3};
   }
   
   & img {

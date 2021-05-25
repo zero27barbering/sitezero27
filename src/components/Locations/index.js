@@ -11,7 +11,8 @@ const Container = styled.div`
   background-color: ${({theme}) => theme.colors.color2};
   border-radius: 15px;
   border: 2px solid ${({theme}) => theme.colors.color1};
-  
+   /* nbh 
+    */
   & > div {
     padding: 2rem 1.5rem;
     display: flex;

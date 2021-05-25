@@ -28,7 +28,7 @@ export const Container = styled.div`
     display: block;
   }
   #info-bar small {
-    color: #989898;
+    color: ${({theme}) => theme.colors.color1};;
     font-size: 16px;
   }
   #info-bar > :not(:last-child) {
@@ -93,6 +93,7 @@ export const Container = styled.div`
       height: 12px;
       width: 12px;
       margin-right: 10px;
+      color: ${({ theme }) => theme.colors.contrastText}
     }
     #info-bar small {
       font-size: 10px;
@@ -124,17 +125,17 @@ export default function Infobar() {
                     </div>
                 </div>
                 <div>
-                    <img width="20" height="20" src="/img/icons/location.svg" alt="Local"/>
+                    <img width="20" height="20" color="#FF5722" src="/img/icons/location.svg" alt="Local"/>
                     <div>
-                        <span>39 Millground Road</span>
-                        <small>BS138NE - Bristol</small>
+                        <span>17 Merton Road</span>
+                        <small>BS7 8TL - Bristol</small>
                     </div>
                 </div>
                 <div>
                     <img width="20" height="20" src="/img/icons/time.svg" alt="Phone"/>
                     <div>
-                        <div>Open Mon - Sat</div>
-                        <small>8:00am - 8:00pm</small>
+                        <div>Open Mon - Fri</div>
+                        <small>9:00am - 7:00pm</small>
                     </div>
                 </div>
                 <div id="insta-block">

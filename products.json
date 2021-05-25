@@ -4,48 +4,55 @@
     "name": "Hair",
     "price": "15£",
     "time": "45mins",
-    "link": "https://calendly.com/zero27barbering/hair"
+    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
+    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
   },
   {
     "id": 2,
     "name": "Beard",
     "price": "10£",
     "time": "30mins",
-    "link": "https://calendly.com/zero27barbering/beard"
+    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
+    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
   },
   {
     "id": 3,
     "name": "Beard Therapy",
     "price": "15£",
     "time": "30mins",
-    "link": "https://calendly.com/zero27barbering/beard-therapy"
+    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
+    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
   },
   {
     "id": 4,
     "name": "Eyebrows",
     "price": "7£",
     "time": "15mins",
-    "link": "https://calendly.com/zero27barbering/eyebrows"
+    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
+    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
   },
   {
     "id": 5,
     "name": "Hair Pigmentation",
     "price": "15£",
     "time": "30mins",
-    "link": "https://calendly.com/zero27barbering/hair-pigmentation"
+    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
+    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
   },
   {
     "id": 6,
     "name": "Beard Pigmentation",
     "price": "15£",
     "time": "30mins",
-    "link": "https://calendly.com/zero27barbering/beard-pigmentation"
+    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
+    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
   },
   {
     "id": 7,
     "name": "Progressive Treatment",
     "price": "Starting from 30£",
     "time": "60mins",
-    "link": "https://calendly.com/zero27barbering/progressive-treatment"
+    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
+    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
   }
 ]

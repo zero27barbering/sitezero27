@@ -12,7 +12,7 @@ export const Btn = styled.a`
   transition: all 250ms ease;
   border: 1px solid ${({theme}) => theme.colors.color1};
   position: fixed;
-  bottom: 20px;
+  bottom: 85px;
   right: 20px;
   z-index: 2;
   

@@ -69,7 +69,7 @@ export const Container = styled.div`
   }
   & #products-dt span {
     color: #989898;
-    display: inline-block;
+    display: block;
     margin: 10px 40px 10px 0;
   }
   & #products-dt small {
@@ -101,7 +101,7 @@ export const Container = styled.div`
   & #products-m > span {
     color: #989898;
     font-size: 10px;
-    display: inline-block;
+    display: block;
     margin-top: 5px;
     margin-bottom: 10px;
   }

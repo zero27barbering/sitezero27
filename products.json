@@ -1,58 +1,66 @@
 [
   {
     "id": 1,
-    "name": "Hair",
-    "price": "15£",
-    "time": "45mins",
-    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
-    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
+    "name": "Corte",
+    "price": "18£",
+    "time": "30mins",
+    "description": "Corte com tesoura e máquina. Adicionais (Skin fade, desenhos com navalha) 3£ 10min.",
+    "link": "https://calendly.com/zero27barbering/corte18"
   },
   {
     "id": 2,
-    "name": "Beard",
-    "price": "10£",
+    "name": "Corte Infantil",
+    "price": "15£",
     "time": "30mins",
-    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
-    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
+    "description": "Até 3 Anos. Corte com tesoura.",
+    "link": "https://calendly.com/zero27barbering/corte-infantil-15"
   },
   {
     "id": 3,
-    "name": "Beard Therapy",
-    "price": "15£",
-    "time": "30mins",
-    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
-    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
+    "name": "Barba Simples",
+    "price": "10£",
+    "time": "10mins",
+    "description": "Com máquina.",
+    "link": "https://calendly.com/zero27barbering/barba10"
   },
   {
     "id": 4,
-    "name": "Eyebrows",
-    "price": "7£",
-    "time": "15mins",
-    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
-    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
+    "name": "Barba",
+    "price": "12£",
+    "time": "20mins",
+    "description": "Com tesoura, navalha, toalha quente, massagem facial e hidratação dos fios.",
+    "link": "https://calendly.com/zero27barbering/barba12"
   },
   {
     "id": 5,
-    "name": "Hair Pigmentation",
-    "price": "15£",
+    "name": "Barboterapia",
+    "price": "18£",
     "time": "30mins",
-    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
-    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
+    "description": "Com tesoura, navalha, vapor de ozônio, toalha quente, massagem facial e hidratação dos fios.",
+    "link": "https://calendly.com/zero27barbering/barboterapia18"
   },
   {
     "id": 6,
-    "name": "Beard Pigmentation",
-    "price": "15£",
-    "time": "30mins",
-    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
-    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
+    "name": "Sobrancelhas",
+    "price": "7£",
+    "time": "10mins",
+    "description": "Limpeza das sombrancelhas com linha ou navalha.",
+    "link": "https://calendly.com/zero27barbering/sobrancelhas7"
   },
   {
     "id": 7,
-    "name": "Progressive Treatment",
-    "price": "Starting from 30£",
+    "name": "Realinhamento Capilar",
+    "price": "a partir 35£",
     "time": "60mins",
-    "description": "Nullam pharetra gravida viverra. Lorem ipsum dolor sit amet.",
-    "link": "https://www.fresha.com/providers/zero27-barbering-mhyrz3mn?pId=476326"
+    "description": "Alisa, hidrata, reduz volume e ondulação dos fios.",
+    "link": "https://calendly.com/zero27barbering/realinhamento-capilar35"
+  },
+  {
+    "id": 8,
+    "name": "Pigmentação",
+    "price": "10£",
+    "time": "20mins",
+    "description": "Processo para escurecer os fios brancos do cabelo ou barba.",
+    "link": "https://calendly.com/zero27barbering/pigmentacao10"
   }
 ]

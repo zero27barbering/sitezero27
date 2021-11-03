@@ -39,6 +39,7 @@ export const Container = styled.div`
   @media (min-width: 500px) {
     & #products-dt {
       display: flex;
+      width: 100%;
     }
     & #products-m {
       display: none;
@@ -71,6 +72,9 @@ export const Container = styled.div`
     color: #989898;
     display: block;
     margin: 10px 40px 10px 0;
+  }
+  & #products-dt div:first-child {
+    width: 100%;
   }
   & #products-dt small {
     color: ${({ theme }) => theme.colors.color1};

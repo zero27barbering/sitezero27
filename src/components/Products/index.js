@@ -144,8 +144,7 @@ const product = products.map((products) => {
                     <span>{products.price}</span>
                 </div>
                 <span>
-                    Lorem ipsum dolor sit amet et dolore magna
-                    aliqua consectetur adipiscing elit phasellus.
+                  {products.description}
                 </span>
                 <div>
                     <a href={`${products.link}`}>

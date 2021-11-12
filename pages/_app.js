@@ -95,7 +95,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Barber Shop - Rodrigo Carvalho</title>
+        <title>Zero27 Barbering</title>
           {/*<link rel="stylesheet" href="/css/bootstrap-grid.min.css"/>
           <link rel="stylesheet" href="/css/bootstrap-utilities.min.css"/>*/}
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" />

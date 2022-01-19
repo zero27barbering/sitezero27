@@ -135,8 +135,10 @@ export default function Infobar() {
                 <div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24.012 24.012"><path d="M137.188,360.995a12.006,12.006,0,1,1-12.014,11.994A12.039,12.039,0,0,1,137.188,360.995Zm9.64,12.042a9.648,9.648,0,1,0-9.686,9.612A9.628,9.628,0,0,0,146.828,373.037Zm-4.557,4.907.872-1.419-5.425-3.23v-6.225h-1.7v7.122Z" transform="translate(-125.174 -360.995)" fill="currentColor"/></svg>
                     <div>
-                        <div>Open Mon - Fri</div>
+                        <div>Mon - Fri</div>
                         <small>9:00am - 7:00pm</small>
+                        <div>Saturday</div>
+                        <small>9:00am - 5:00pm</small>
                     </div>
                 </div>
                 <div id="insta-block">

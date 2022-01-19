@@ -60,7 +60,7 @@ const location = locations.map((locations) => {
         let section = e.target.previousSibling
         let num = section.getAttribute('data-number')
         let addr = section.getAttribute('data-address')
-        document.querySelector('#exampleModal .modal-body').innerHTML = renderToStaticMarkup(<MapEmbed number={num} address={addr} />)
+        document.querySelector('#exampleModal .modal-body').innerHTML = renderToStaticMarkup(<MapEmbed/>)
     }
 
     return (

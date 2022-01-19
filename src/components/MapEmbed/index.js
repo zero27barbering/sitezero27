@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function MapEmbed({ address, number }) {
+export default function MapEmbed() {
 
-    const addressQuery = encodeURI(`${number} ${address}`)
+    const addressQuery = encodeURI(`Zero27 Barbering, Merton Road, Bishopston, Bristol`)
 
     return (
         <iframe

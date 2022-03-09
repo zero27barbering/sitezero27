@@ -51,7 +51,7 @@ const Row = styled.div`
 
 const location = locations.map((locations) => {
 
-    function handleClick() { //abre o modal
+    function handleClick() { //abre o modal22
         let bsModal = new bootstrap.Modal(document.getElementById('exampleModal'), { keyboard: true })
         bsModal.show()
     }
